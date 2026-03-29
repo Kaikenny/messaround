@@ -1,7 +1,7 @@
 {
-  "Title": "messaround",
+  "Title": "best game ever, play now",
   "Type": "game",
-  "Org": "local",
+  "Org": "crypticvision",
   "Ident": "messaround",
   "Schema": 1,
   "IncludeSourceFiles": false,
@@ -23,6 +23,7 @@
     "PerMapRanking": false,
     "LeaderboardType": "None",
     "CsProjName": "",
-    "StartupScene": "scenes/minimal.scene"
+    "StartupScene": "scenes/minimal.scene",
+    "LaunchMode": "Normal"
   }
 }
