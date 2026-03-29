@@ -91,7 +91,7 @@ public sealed class Spin : Component
 
 	public void TimerComplete()
 	{
-		Log.Info( "timer complete" );
+		Sandbox.Services.Achievements.Unlock( "spin_master" );
 	}
 
 	private void ResetSkyboxes()
