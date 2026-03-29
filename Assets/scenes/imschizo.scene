@@ -388,9 +388,9 @@
             "X": true,
             "Y": true,
             "Z": false,
-            "Pitch": true,
+            "Pitch": false,
             "Yaw": true,
-            "Roll": false
+            "Roll": true
           },
           "MassCenterOverride": "0,0,0",
           "MassOverride": 0,
@@ -508,6 +508,24 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "b35f0406-2510-4eb4-8fa4-83c907292054",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Object",
+      "Position": "600.8235,-188.6864,11.53347",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": []
     }
   ],
   "SceneProperties": {
@@ -531,11 +549,6 @@
     "GameObjectSystems": {
       "Sandbox.MovieMaker.MovieRecorderSystem": {
         "DisableClientRecording": false
-      },
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "d7432908-85cc-4dca-8e14-d63efebebf83"
-        }
       }
     }
   },
