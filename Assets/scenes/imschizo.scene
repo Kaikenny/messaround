@@ -538,6 +538,29 @@
               "OnComponentUpdate": null,
               "Roundness": 1,
               "Smoothness": 1
+            },
+            {
+              "__type": "Sandbox.ScreenPanel",
+              "__guid": "17b2f857-5624-4796-bf0f-f778cf939ae8",
+              "__enabled": true,
+              "Flags": 0,
+              "AutoScreenScale": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Opacity": 1,
+              "Scale": 1,
+              "ScaleStrategy": "ConsistentHeight",
+              "TargetCamera": {
+                "_type": "component",
+                "component_id": "d638e472-59fb-4938-a67c-3e240c8af000",
+                "go": "32b4947e-482b-4fc6-9fae-166d2d1d5ac4",
+                "component_type": "CameraComponent"
+              },
+              "ZIndex": 100
             }
           ],
           "Children": []
@@ -620,6 +643,11 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "00978c06-6085-4b7c-8701-e95f6acda3c3"
+        }
+      },
       "Sandbox.MovieMaker.MovieRecorderSystem": {
         "DisableClientRecording": false
       }

@@ -1,5 +1,5 @@
 {
-  "Title": "best game ever, play now",
+  "Title": "bestgameever",
   "Type": "game",
   "Org": "crypticvision",
   "Ident": "messaround",
@@ -23,7 +23,7 @@
     "PerMapRanking": false,
     "LeaderboardType": "None",
     "CsProjName": "",
-    "StartupScene": "scenes/minimal.scene",
+    "StartupScene": "scenes/imschizo.scene",
     "LaunchMode": "Normal"
   }
 }
