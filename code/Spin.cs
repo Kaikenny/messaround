@@ -30,7 +30,7 @@ public sealed class Spin : Component
 	{
 		_skyboxes = Scene.GetAllComponents<SkyBox2D>();
 		_renderers = Scene.GetAllComponents<ModelRenderer>();
-		_spinSkyMaterial = Cloud.Material( "https://sbox.game/crystalsilence/loomingsky" );
+		_spinSkyMaterial = Cloud.Material( "https://sbox.game/polyhaven/kloppenheim_03_puresky" );
 		_defaultSkyMaterial = Material.Load( "materials/skybox/skybox_day_01.vmat" );
 	}
  
