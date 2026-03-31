@@ -81,7 +81,7 @@ public sealed class Spin : Component
 			textTarget = new Vector2( Game.Random.Float( 50f, Screen.Width - 20f ), Game.Random.Float( 50f, Screen.Height - 50f ) );
 
 		textPos = Vector2.Lerp( textPos, textTarget, Time.Delta * 100f );
-		Hud.DrawText( new TextRendering.Scope( "dingus", Color.Red, 64 ), textPos );
+		Hud.DrawText( new TextRendering.Scope( "fih", Color.White, 84 ), textPos );
 
 		foreach ( var skybox in _skyboxes )
 			skybox.SkyMaterial = _spinSkyMaterial;
